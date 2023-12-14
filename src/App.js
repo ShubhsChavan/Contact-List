@@ -16,6 +16,7 @@ function App() {
   const router= createBrowserRouter([
     {path: "/", element: <Navbar/>, children:[
       {path: "/", element: <Home/>},
+      {path: "/Contact-list", element: <Home/>},
       {path : 'add-contact' , element : <AddToContact /> },
       {path : 'edit-contact/:id' , element : <EditContact/>}
     ]}
